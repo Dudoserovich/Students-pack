@@ -7,16 +7,16 @@ using namespace std;
 void fill_students(vector<int> &st_marks, const vector<string> &name_students, vector<Student> &students, int n);
 
 int main() {
-    vector <int> marks = {3, 4, 5, 5};
-    vector <int> st_marks = {0, 0, 0, 0};
-    vector <string> name_students = {"Семён", "Егор", "Роман", "Олеся"};
-    vector <string> name_teachers = {"Роман Лось", "Юрий Клевчихин", "Евгений Ефремов",
-                                     "Светлана Остроухова"};
-    vector <string> name_lessons = {"ООП-шиза", "мат анализ", "мат логика",
-                               "структуры и алгоритмы данных"};
-    vector <Student> students = {};
-    vector <Teacher> teachers = {};
-    vector <Parent> parents = {};
+    vector<int> marks = {3, 4, 5, 5};
+    vector<int> st_marks = {0, 0, 0, 0};
+    vector<string> name_students = {"Семён", "Егор", "Роман", "Олеся"};
+    vector<string> name_teachers = {"Роман Лось", "Юрий Клевчихин", "Евгений Ефремов",
+                                    "Светлана Остроухова"};
+    vector<string> name_lessons = {"ООП-шиза", "мат анализ", "мат логика",
+                                   "структуры и алгоритмы данных"};
+    vector<Student> students = {};
+    vector<Teacher> teachers = {};
+    vector<Parent> parents = {};
     fill_students(st_marks, name_students, students, 4);
 
     // добавляем 4 преподавателей
@@ -31,8 +31,8 @@ int main() {
     p.setThere(false);
     parents.push_back(p);
 
-    vector <string> name_students2 = {"Леонид", "Анастасия", "Вика", "Данил"};
-    vector <Student> students2 = {};
+    vector<string> name_students2 = {"Леонид", "Анастасия", "Вика", "Данил"};
+    vector<Student> students2 = {};
     fill_students(st_marks, name_students2, students2, 4);
 
     // добавляем родителя

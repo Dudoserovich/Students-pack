@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/Students_pack.dir/main.cpp.o -o Students_pack.exe -Wl,--out-implib,libStudents_pack.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

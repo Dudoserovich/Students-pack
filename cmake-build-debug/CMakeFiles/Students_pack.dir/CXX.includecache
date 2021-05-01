@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/MyPrograms/Students pack/School.h
+iostream
+-
+utility
+-
+vector
+-
+algorithm
+-
+
+/cygdrive/c/MyPrograms/Students pack/main.cpp
+iostream
+-
+vector
+-
+School.h
+/cygdrive/c/MyPrograms/Students pack/School.h
+
